@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "fastapi",
+  "installCommand": "uv sync --frozen --no-dev",
+  "buildCommand": "echo 'FastAPI — no build step'"
+}

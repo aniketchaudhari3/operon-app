@@ -1,0 +1,20 @@
+{
+  "name": "vectorsh-tmp",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --filter=frontend & (cd apps/backend && uv run uvicorn main:app --reload --host 0.0.0.0 --port 8000)",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "check-types": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "turbo": "^2.9.16",
+    "typescript": "5.9.2"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18"
+  }
+}
