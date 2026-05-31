@@ -48,7 +48,7 @@ pnpm lint        # lint all apps
 pnpm typecheck   # typecheck all apps
 ```
 
-### Docker (backend only)
+### Docker (backend)
 
 ```bash
 docker compose up --build
